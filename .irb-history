@@ -1,0 +1,25 @@
+user.find
+user.find(1)
+user = User.new(firstname: "Aldo", lastname: "Cabrera")
+user.save
+user = User.new(firstname: "Aldo", lastname: "Cabrera", email:"acab9759@gmail.com")
+user.firstname
+user = User.update(firstname: "Aldo", lastname: "Cabrera", email:"acab9759@gmail.com")
+user.delete(1)
+user.email
+user = User.update(firstname: "Tom", lastname: "john", email:"123456@gmail.com")
+user = User.new(firstname: "Tom", lastname: "john", email:"123456@gmail.com")
+user = User.create(firstname: "Tom", lastname: "john", email:"123456@gmail.com")
+user = User.Create(firstname: "Aldo", lastname: "Cabrera", email:"acab9759@gmail.com")
+user = User.create(firstname: "Aldo", lastname: "Cabrera", email:"acab9759@gmail.com")
+user.name(1)
+foo.destroy
+user.name
+user.destroy
+user.destroy(2)
+user.find(2)
+User.find(2)
+User.destroy
+User.destroy(2)
+User.destroy(1)
+User.find(1)
