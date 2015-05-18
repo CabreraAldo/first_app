@@ -26,7 +26,7 @@ post '/sms-quickstart' do
   
   twiml = Twilio::TwiML::Response.new do |r|
     r.Sms message
-    r.Say " This is the W P Carey Business Contunity Team, What is your status?"
+    r.Say " This is the Business Contunity Team, What is your status?"
     open(thefrom+'.out', 'a') { |f|
     f.puts database
       }
